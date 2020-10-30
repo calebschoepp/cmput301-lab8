@@ -28,4 +28,10 @@ class CityListTest {
         assertEquals(2, cityList.countCities());
         assertTrue(cityList.hasCity(new City("Regina", "Saskatchewan")));
     }
+
+    @Test
+    void testNewFandangledFeature() {
+        CityList cityList = mockCityList();
+        assertEquals(cityList.newFandangledFeature(), "COOL");
+    }
 }

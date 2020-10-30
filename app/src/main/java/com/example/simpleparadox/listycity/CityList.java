@@ -70,6 +70,14 @@ public class CityList {
     }
 
     /**
+     * Should return the string "COOL"
+     * @return "COOL"
+     */
+    public String newFandangledFeature() {
+        return "NOT COOL";
+    }
+
+    /**
      * Return the size of the city list
      * @return
      *      Size of city list
