@@ -74,7 +74,7 @@ public class CityList {
      * @return "COOL"
      */
     public String newFandangledFeature() {
-        return "NOT COOL";
+        return "COOL";
     }
 
     /**
